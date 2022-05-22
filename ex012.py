@@ -1,0 +1,5 @@
+pi = float(input('poderia mé dizer qual é o preço desse produto?'))
+d = int(input('qual é o desconto do produto?'))
+pf = (pi/100)*(100-d)
+print(f'Esse produto esta custando {pi}R$ , mas estamos com uma promoção de {d}% de descoto,',end='')
+print(f'dando {pf}R$')
